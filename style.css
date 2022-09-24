@@ -198,6 +198,10 @@ footer{
 .socials{
 	display: flex;
 }
+.socials a:hover{
+	border: solid 1px var(--pink);
+	color: var(--pink);
+}
 .circle{
 	width: 35px;
 	height: 35px;
@@ -212,6 +216,10 @@ footer{
 	font-size: 12px;
 	float: right;
 	color: var(--white);
+}
+/*button hover*/
+:is(.btn-secondary, .btn-danger, .btn-invite):hover{
+	opacity: .7;
 }
 @media (max-width: 1024px){
 	.container{
